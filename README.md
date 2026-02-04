@@ -14,36 +14,17 @@ The generated descriptions are designed for semantic search and retrieval of sim
 
 ## Setup
 
-### 1. Install dependencies
-
-```bash
-pip install google-generativeai
-```
-
-Or update all project dependencies:
-
-```bash
-pip install -e .
-```
-
-### 2. Get a Gemini API Key
+### 1. Get a Gemini API Key
 
 1. Go to [Google AI Studio](https://aistudio.google.com/apikey)
 2. Create a new API key
-3. Set it as an environment variable:
+3. Save the API key in a `.env` file in the root directory of the project:
 
-```bash
-# Windows PowerShell
-$env:GEMINI_API_KEY = "your-api-key-here"
-
-# Windows CMD
-set GEMINI_API_KEY=your-api-key-here
-
-# Linux/Mac
-export GEMINI_API_KEY="your-api-key-here"
+```
+GEMINI_API_KEY=your-api-key-here
 ```
 
-### 3. Prepare description files
+### 2. Prepare description files
 
 For each dataset in `raw_data/`, create a corresponding `.txt` file in `unstructured_description_data/` with the same name:
 
@@ -142,6 +123,6 @@ For a solar generation column:
 | `--description-dir` | `unstructured_description_data` | Directory with .txt descriptions |
 | `--output-dir` | `generated_descriptions` | Output directory for JSON files |
 | `--api-key` | `$GEMINI_API_KEY` | Gemini API key |
-| `--model` | `gemini-1.5-flash` | Gemini model to use |
+| `--model` | `gemini-pro-latest` | Gemini model to use |
 | `--dataset` | None | Process only this dataset |
 | `--include-stats` | False | Include basic statistics and sample data in the LLM prompt |
