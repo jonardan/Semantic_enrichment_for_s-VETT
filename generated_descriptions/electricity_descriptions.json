@@ -1,0 +1,284 @@
+{
+  "dataset_name": "electricity",
+  "dataset_path": "raw_data\\electricity.csv",
+  "processed_at": "2026-02-04T15:49:42.603798",
+  "n_columns": 321,
+  "columns": {
+    "0": {
+      "analysis": {
+        "column_name": "0",
+        "basic_stats": {
+          "mean": 23.26376216545012,
+          "std": 24.12716442183558,
+          "min": 0.0,
+          "max": 140.0,
+          "median": 11.0,
+          "q25": 9.0,
+          "q75": 24.0,
+          "missing_pct": 0.0,
+          "n_points": 26304
+        },
+        "temporal_info": {
+          "start_date": "2016-07-01 02:00:00",
+          "end_date": "2019-07-02 01:00:00",
+          "duration_days": 1095,
+          "frequency": "hourly"
+        },
+        "patterns": {
+          "trend": "stable",
+          "volatility": "high"
+        },
+        "sample_data": [
+          {
+            "timestamp": "2016-07-01 02:00:00",
+            "value": 14.0
+          },
+          {
+            "timestamp": "2016-10-18 16:00:00",
+            "value": 57.0
+          },
+          {
+            "timestamp": "2017-02-05 06:00:00",
+            "value": 8.0
+          },
+          {
+            "timestamp": "2017-05-25 20:00:00",
+            "value": 9.0
+          },
+          {
+            "timestamp": "2017-09-12 10:00:00",
+            "value": 10.0
+          },
+          {
+            "timestamp": "2017-12-31 00:00:00",
+            "value": 69.0
+          },
+          {
+            "timestamp": "2018-04-19 14:00:00",
+            "value": 2.0
+          },
+          {
+            "timestamp": "2018-08-07 04:00:00",
+            "value": 12.0
+          },
+          {
+            "timestamp": "2018-11-24 18:00:00",
+            "value": 8.0
+          },
+          {
+            "timestamp": "2019-03-14 08:00:00",
+            "value": 79.0
+          }
+        ]
+      },
+      "description": "This time series represents hourly electricity consumption data spanning three years, from July 2016 to July 2019. The series exhibits a stable long-term trend but displays high volatility, characteristic of energy demand. It contains strong, predictable daily and yearly seasonal patterns, with consumption levels fluctuating significantly based on the time of day and the season. These cyclical patterns, such as daytime peaks and nighttime troughs, make it ideal for short-term load forecasting and analyzing consumer behavior."
+    },
+    "1": {
+      "analysis": {
+        "column_name": "1",
+        "basic_stats": {
+          "mean": 112.88556873479318,
+          "std": 25.553140538213487,
+          "min": 0.0,
+          "max": 296.0,
+          "median": 113.0,
+          "q25": 95.0,
+          "q75": 130.0,
+          "missing_pct": 0.0,
+          "n_points": 26304
+        },
+        "temporal_info": {
+          "start_date": "2016-07-01 02:00:00",
+          "end_date": "2019-07-02 01:00:00",
+          "duration_days": 1095,
+          "frequency": "hourly"
+        },
+        "patterns": {
+          "trend": "stable",
+          "volatility": "moderate"
+        },
+        "sample_data": [
+          {
+            "timestamp": "2016-07-01 02:00:00",
+            "value": 69.0
+          },
+          {
+            "timestamp": "2016-10-18 16:00:00",
+            "value": 100.0
+          },
+          {
+            "timestamp": "2017-02-05 06:00:00",
+            "value": 92.0
+          },
+          {
+            "timestamp": "2017-05-25 20:00:00",
+            "value": 124.0
+          },
+          {
+            "timestamp": "2017-09-12 10:00:00",
+            "value": 156.0
+          },
+          {
+            "timestamp": "2017-12-31 00:00:00",
+            "value": 146.0
+          },
+          {
+            "timestamp": "2018-04-19 14:00:00",
+            "value": 131.0
+          },
+          {
+            "timestamp": "2018-08-07 04:00:00",
+            "value": 93.0
+          },
+          {
+            "timestamp": "2018-11-24 18:00:00",
+            "value": 104.0
+          },
+          {
+            "timestamp": "2019-03-14 08:00:00",
+            "value": 109.0
+          }
+        ]
+      },
+      "description": "This time series represents the hourly electricity consumption for a specific client or meter (ID 1), recorded over a three-year period from July 2016 to July 2019. The data exhibits a stable long-term trend with moderate volatility. Given its hourly frequency and domain, it is expected to show strong daily and weekly cyclical patterns, with consumption likely peaking during active hours and decreasing overnight. Seasonal variations, reflecting heating or cooling demands, are also anticipated in this energy usage data."
+    },
+    "2": {
+      "analysis": {
+        "column_name": "2",
+        "basic_stats": {
+          "mean": 16.821624087591243,
+          "std": 49.19037742484483,
+          "min": 0.0,
+          "max": 601.0,
+          "median": 8.0,
+          "q25": 8.0,
+          "q75": 10.0,
+          "missing_pct": 0.0,
+          "n_points": 26304
+        },
+        "temporal_info": {
+          "start_date": "2016-07-01 02:00:00",
+          "end_date": "2019-07-02 01:00:00",
+          "duration_days": 1095,
+          "frequency": "hourly"
+        },
+        "patterns": {
+          "trend": "stable",
+          "volatility": "high"
+        },
+        "sample_data": [
+          {
+            "timestamp": "2016-07-01 02:00:00",
+            "value": 234.0
+          },
+          {
+            "timestamp": "2016-10-18 16:00:00",
+            "value": 12.0
+          },
+          {
+            "timestamp": "2017-02-05 06:00:00",
+            "value": 8.0
+          },
+          {
+            "timestamp": "2017-05-25 20:00:00",
+            "value": 20.0
+          },
+          {
+            "timestamp": "2017-09-12 10:00:00",
+            "value": 7.0
+          },
+          {
+            "timestamp": "2017-12-31 00:00:00",
+            "value": 10.0
+          },
+          {
+            "timestamp": "2018-04-19 14:00:00",
+            "value": 8.0
+          },
+          {
+            "timestamp": "2018-08-07 04:00:00",
+            "value": 8.0
+          },
+          {
+            "timestamp": "2018-11-24 18:00:00",
+            "value": 8.0
+          },
+          {
+            "timestamp": "2019-03-14 08:00:00",
+            "value": 8.0
+          }
+        ]
+      },
+      "description": "This time series records the hourly electricity consumption for a specific entity, client 2, over a three-year period from July 2016 to July 2019. The data shows a stable long-term trend, indicating no significant overall increase or decrease in usage. However, it is characterized by high volatility, suggesting large and frequent fluctuations in power demand. This pattern is typical for consumers with irregular schedules or intermittent use of high-power appliances, and the hourly frequency is ideal for analyzing daily and weekly usage cycles."
+    },
+    "3": {
+      "analysis": {
+        "column_name": "3",
+        "basic_stats": {
+          "mean": 440.3351961678832,
+          "std": 152.60105027492313,
+          "min": 0.0,
+          "max": 1170.0,
+          "median": 400.0,
+          "q25": 334.75,
+          "q75": 511.0,
+          "missing_pct": 0.0,
+          "n_points": 26304
+        },
+        "temporal_info": {
+          "start_date": "2016-07-01 02:00:00",
+          "end_date": "2019-07-02 01:00:00",
+          "duration_days": 1095,
+          "frequency": "hourly"
+        },
+        "patterns": {
+          "trend": "stable",
+          "volatility": "moderate"
+        },
+        "sample_data": [
+          {
+            "timestamp": "2016-07-01 02:00:00",
+            "value": 415.0
+          },
+          {
+            "timestamp": "2016-10-18 16:00:00",
+            "value": 237.0
+          },
+          {
+            "timestamp": "2017-02-05 06:00:00",
+            "value": 280.0
+          },
+          {
+            "timestamp": "2017-05-25 20:00:00",
+            "value": 724.0
+          },
+          {
+            "timestamp": "2017-09-12 10:00:00",
+            "value": 390.0
+          },
+          {
+            "timestamp": "2017-12-31 00:00:00",
+            "value": 632.0
+          },
+          {
+            "timestamp": "2018-04-19 14:00:00",
+            "value": 571.0
+          },
+          {
+            "timestamp": "2018-08-07 04:00:00",
+            "value": 468.0
+          },
+          {
+            "timestamp": "2018-11-24 18:00:00",
+            "value": 356.0
+          },
+          {
+            "timestamp": "2019-03-14 08:00:00",
+            "value": 312.0
+          }
+        ]
+      },
+      "description": "This time series represents the hourly electricity consumption for client 3 from July 2016 to July 2019. The data exhibits a stable long-term trend with moderate volatility. It is characterized by strong, implicit daily and annual cycles, with consumption peaks likely occurring during daytime hours and in seasons with high heating or cooling demand. These patterns are typical of an electricity load profile, reflecting consumer activity and weather influences, making the series suitable for forecasting recurring energy usage patterns and detecting anomalies in power consumption."
+    }
+  }
+}

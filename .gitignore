@@ -3,6 +3,7 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+raw_data/traffic.csv
 # C extensions
 *.so
 

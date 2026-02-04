@@ -1,0 +1,77 @@
+{
+  "dataset_name": "female_births_dataset",
+  "dataset_path": "raw_data\\female_births_dataset.csv",
+  "processed_at": "2026-02-04T15:57:22.180721",
+  "n_columns": 1,
+  "columns": {
+    "Births": {
+      "analysis": {
+        "column_name": "Births",
+        "basic_stats": {
+          "mean": 41.98082191780822,
+          "std": 7.348257204125331,
+          "min": 23.0,
+          "max": 73.0,
+          "median": 42.0,
+          "q25": 37.0,
+          "q75": 46.0,
+          "missing_pct": 0.0,
+          "n_points": 365
+        },
+        "temporal_info": {
+          "start_date": "1959-01-01 00:00:00",
+          "end_date": "1959-12-31 00:00:00",
+          "duration_days": 364,
+          "frequency": "daily"
+        },
+        "patterns": {
+          "trend": "increasing",
+          "volatility": "moderate"
+        },
+        "sample_data": [
+          {
+            "timestamp": "1959-01-01 00:00:00",
+            "value": 35.0
+          },
+          {
+            "timestamp": "1959-02-06 00:00:00",
+            "value": 38.0
+          },
+          {
+            "timestamp": "1959-03-14 00:00:00",
+            "value": 31.0
+          },
+          {
+            "timestamp": "1959-04-19 00:00:00",
+            "value": 46.0
+          },
+          {
+            "timestamp": "1959-05-25 00:00:00",
+            "value": 37.0
+          },
+          {
+            "timestamp": "1959-06-30 00:00:00",
+            "value": 59.0
+          },
+          {
+            "timestamp": "1959-08-05 00:00:00",
+            "value": 64.0
+          },
+          {
+            "timestamp": "1959-09-10 00:00:00",
+            "value": 44.0
+          },
+          {
+            "timestamp": "1959-10-16 00:00:00",
+            "value": 51.0
+          },
+          {
+            "timestamp": "1959-11-21 00:00:00",
+            "value": 44.0
+          }
+        ]
+      },
+      "description": "This time series records the daily count of female births for the year 1959. Spanning 364 days, the data is captured at a daily frequency. The series exhibits a generally increasing trend over the year, suggesting a rise in daily births as 1959 progressed. It also displays moderate volatility, with noticeable day-to-day fluctuations in the number of births. This demographic data is relevant for studying short-term population dynamics and public health trends from that historical period."
+    }
+  }
+}
