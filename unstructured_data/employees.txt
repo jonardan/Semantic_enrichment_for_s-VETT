@@ -1,0 +1,24 @@
+Employee Dataset Documentation
+
+This dataset contains information about company employees across different departments.
+
+Purpose:
+This dataset is used for HR analytics and workforce management. It tracks employee demographics,
+compensation, and tenure information.
+
+Column Descriptions:
+- id: A unique identifier assigned to each employee in the system
+- name: Full name of the employee (first name and last name)
+- age: Current age of the employee in years
+- department: The business unit or department where the employee works (Engineering, Marketing, or Sales)
+- salary: Annual salary in USD before taxes and deductions
+- hire_date: The date when the employee was hired in YYYY-MM-DD format
+
+Data Collection:
+This data is extracted from the company's HR management system on a monthly basis.
+The dataset is maintained by the Human Resources department and updated regularly.
+
+Usage Notes:
+- All employee information should be handled according to company privacy policies
+- Salary information is confidential and should only be used for authorized analytics
+- The dataset represents a snapshot at a specific point in time

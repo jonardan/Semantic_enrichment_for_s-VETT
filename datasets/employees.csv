@@ -1,0 +1,11 @@
+id,name,age,department,salary,hire_date
+1,John Smith,35,Engineering,95000,2019-03-15
+2,Sarah Johnson,28,Marketing,72000,2020-06-01
+3,Michael Brown,42,Engineering,110000,2017-11-20
+4,Emily Davis,31,Sales,68000,2021-02-10
+5,David Wilson,39,Engineering,98000,2018-09-05
+6,Lisa Anderson,27,Marketing,65000,2022-01-12
+7,James Taylor,45,Sales,85000,2016-04-22
+8,Jennifer Martinez,33,Engineering,92000,2019-08-30
+9,Robert Garcia,29,Marketing,70000,2021-07-18
+10,Mary Rodriguez,37,Sales,78000,2018-12-03

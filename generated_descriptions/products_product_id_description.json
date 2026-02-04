@@ -1,0 +1,25 @@
+{
+  "column_name": "product_id",
+  "structured_analysis": {
+    "column_name": "product_id",
+    "data_type": "str",
+    "non_null_count": 10,
+    "null_count": 0,
+    "total_count": 10,
+    "unique_count": 10,
+    "sample_values": [
+      "P001",
+      "P002",
+      "P003",
+      "P004",
+      "P005"
+    ],
+    "avg_string_length": 4.0
+  },
+  "semantic_description": "Column 'product_id' is of type str. It contains 10 complete values with no missing data. All values are unique (potentially an identifier). Sample values: 'P001', 'P002', 'P003', 'P004', 'P005'.",
+  "context_from_unstructured_data": "Product Inventory Dataset\n\nThis dataset contains the current inventory of products available in our warehouse system.\n\nOverview:\nThe product catalog includes various items across different categories including Electronics,\nFurniture, and Stationery. This data is used for inventory management, procurement planning,\nand sales analytics.\n\nField Information:\n- product_id: Unique identifier code for each product (format: P + 3-digit number)\n- product_name: Descriptive name of the product\n- category: ",
+  "metadata": {
+    "completeness_ratio": 1.0,
+    "uniqueness_ratio": 1.0
+  }
+}

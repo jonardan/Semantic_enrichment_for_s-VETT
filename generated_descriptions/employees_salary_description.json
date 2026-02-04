@@ -1,0 +1,21 @@
+{
+  "column_name": "salary",
+  "structured_analysis": {
+    "column_name": "salary",
+    "data_type": "int64",
+    "non_null_count": 10,
+    "null_count": 0,
+    "total_count": 10,
+    "unique_count": 10,
+    "min_value": 65000.0,
+    "max_value": 110000.0,
+    "mean_value": 83300.0,
+    "median_value": 81500.0
+  },
+  "semantic_description": "Column 'salary' is of type int64. It contains 10 complete values with no missing data. All values are unique (potentially an identifier). Numeric range: 65000.0 to 110000.0 (mean: 83300.00).",
+  "context_from_unstructured_data": "Employee Dataset Documentation\n\nThis dataset contains information about company employees across different departments.\n\nPurpose:\nThis dataset is used for HR analytics and workforce management. It tracks employee demographics,\ncompensation, and tenure information.\n\nColumn Descriptions:\n- id: A unique identifier assigned to each employee in the system\n- name: Full name of the employee (first name and last name)\n- age: Current age of the employee in years\n- department: The business unit or departm",
+  "metadata": {
+    "completeness_ratio": 1.0,
+    "uniqueness_ratio": 1.0
+  }
+}

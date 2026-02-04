@@ -1,0 +1,23 @@
+{
+  "column_name": "category",
+  "structured_analysis": {
+    "column_name": "category",
+    "data_type": "str",
+    "non_null_count": 10,
+    "null_count": 0,
+    "total_count": 10,
+    "unique_count": 3,
+    "sample_values": [
+      "Electronics",
+      "Furniture",
+      "Stationery"
+    ],
+    "avg_string_length": 10.0
+  },
+  "semantic_description": "Column 'category' is of type str. It contains 10 complete values with no missing data. It has 3 unique values (potentially categorical). Sample values: 'Electronics', 'Furniture', 'Stationery'.",
+  "context_from_unstructured_data": "Product Inventory Dataset\n\nThis dataset contains the current inventory of products available in our warehouse system.\n\nOverview:\nThe product catalog includes various items across different categories including Electronics,\nFurniture, and Stationery. This data is used for inventory management, procurement planning,\nand sales analytics.\n\nField Information:\n- product_id: Unique identifier code for each product (format: P + 3-digit number)\n- product_name: Descriptive name of the product\n- category: ",
+  "metadata": {
+    "completeness_ratio": 1.0,
+    "uniqueness_ratio": 0.3
+  }
+}

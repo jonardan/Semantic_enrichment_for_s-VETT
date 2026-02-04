@@ -1,0 +1,26 @@
+Product Inventory Dataset
+
+This dataset contains the current inventory of products available in our warehouse system.
+
+Overview:
+The product catalog includes various items across different categories including Electronics,
+Furniture, and Stationery. This data is used for inventory management, procurement planning,
+and sales analytics.
+
+Field Information:
+- product_id: Unique identifier code for each product (format: P + 3-digit number)
+- product_name: Descriptive name of the product
+- category: Product classification (Electronics, Furniture, or Stationery)
+- price: Current retail price in USD with two decimal places
+- stock_quantity: Number of units currently available in the warehouse
+- supplier: Name of the company that supplies this product
+
+Data Maintenance:
+The inventory data is synchronized with the warehouse management system every 6 hours.
+Stock quantities reflect real-time availability and are updated as sales occur and
+shipments are received.
+
+Business Context:
+Products with stock quantity below 30 units trigger automatic reorder notifications.
+Prices are reviewed quarterly and may be adjusted based on supplier costs and market conditions.
+The supplier field is critical for procurement and supply chain management processes.

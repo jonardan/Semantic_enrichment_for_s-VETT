@@ -1,0 +1,25 @@
+{
+  "column_name": "hire_date",
+  "structured_analysis": {
+    "column_name": "hire_date",
+    "data_type": "str",
+    "non_null_count": 10,
+    "null_count": 0,
+    "total_count": 10,
+    "unique_count": 10,
+    "sample_values": [
+      "2019-03-15",
+      "2020-06-01",
+      "2017-11-20",
+      "2021-02-10",
+      "2018-09-05"
+    ],
+    "avg_string_length": 10.0
+  },
+  "semantic_description": "Column 'hire_date' is of type str. It contains 10 complete values with no missing data. All values are unique (potentially an identifier). Sample values: '2019-03-15', '2020-06-01', '2017-11-20', '2021-02-10', '2018-09-05'.",
+  "context_from_unstructured_data": "Employee Dataset Documentation\n\nThis dataset contains information about company employees across different departments.\n\nPurpose:\nThis dataset is used for HR analytics and workforce management. It tracks employee demographics,\ncompensation, and tenure information.\n\nColumn Descriptions:\n- id: A unique identifier assigned to each employee in the system\n- name: Full name of the employee (first name and last name)\n- age: Current age of the employee in years\n- department: The business unit or departm",
+  "metadata": {
+    "completeness_ratio": 1.0,
+    "uniqueness_ratio": 1.0
+  }
+}

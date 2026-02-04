@@ -1,0 +1,11 @@
+product_id,product_name,category,price,stock_quantity,supplier
+P001,Laptop Computer,Electronics,1299.99,45,TechSupply Inc
+P002,Office Chair,Furniture,249.50,120,ComfortSeating Co
+P003,Wireless Mouse,Electronics,29.99,200,TechSupply Inc
+P004,Desk Lamp,Furniture,39.99,85,HomeBright Ltd
+P005,USB Cable,Electronics,12.99,350,TechSupply Inc
+P006,Notebook Set,Stationery,15.99,180,PaperWorld
+P007,Standing Desk,Furniture,599.00,25,ComfortSeating Co
+P008,Keyboard,Electronics,79.99,95,TechSupply Inc
+P009,Pen Pack,Stationery,8.99,400,PaperWorld
+P010,Monitor Stand,Furniture,89.99,60,HomeBright Ltd

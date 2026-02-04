@@ -1,0 +1,21 @@
+{
+  "column_name": "stock_quantity",
+  "structured_analysis": {
+    "column_name": "stock_quantity",
+    "data_type": "int64",
+    "non_null_count": 10,
+    "null_count": 0,
+    "total_count": 10,
+    "unique_count": 10,
+    "min_value": 25.0,
+    "max_value": 400.0,
+    "mean_value": 156.0,
+    "median_value": 107.5
+  },
+  "semantic_description": "Column 'stock_quantity' is of type int64. It contains 10 complete values with no missing data. All values are unique (potentially an identifier). Numeric range: 25.0 to 400.0 (mean: 156.00).",
+  "context_from_unstructured_data": "Product Inventory Dataset\n\nThis dataset contains the current inventory of products available in our warehouse system.\n\nOverview:\nThe product catalog includes various items across different categories including Electronics,\nFurniture, and Stationery. This data is used for inventory management, procurement planning,\nand sales analytics.\n\nField Information:\n- product_id: Unique identifier code for each product (format: P + 3-digit number)\n- product_name: Descriptive name of the product\n- category: ",
+  "metadata": {
+    "completeness_ratio": 1.0,
+    "uniqueness_ratio": 1.0
+  }
+}
