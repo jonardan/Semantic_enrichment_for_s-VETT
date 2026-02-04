@@ -19,6 +19,9 @@ class SemanticEnrichment:
     A class to generate semantic descriptions for CSV dataset columns.
     """
     
+    # Maximum length of context to include from unstructured data
+    MAX_CONTEXT_LENGTH = 500
+    
     def __init__(self, datasets_folder: str = "datasets", 
                  unstructured_folder: str = "unstructured_data",
                  output_folder: str = "generated_descriptions"):
@@ -93,7 +96,7 @@ class SemanticEnrichment:
             "column_name": column_analysis["column_name"],
             "structured_analysis": column_analysis,
             "semantic_description": self._generate_description_text(column_analysis),
-            "context_from_unstructured_data": unstructured_context[:500] if unstructured_context else "No context available",
+            "context_from_unstructured_data": unstructured_context[:self.MAX_CONTEXT_LENGTH] if unstructured_context else "No context available",
             "metadata": {
                 "completeness_ratio": column_analysis["non_null_count"] / column_analysis["total_count"] if column_analysis["total_count"] > 0 else 0,
                 "uniqueness_ratio": column_analysis["unique_count"] / column_analysis["total_count"] if column_analysis["total_count"] > 0 else 0
@@ -134,7 +137,11 @@ class SemanticEnrichment:
         
         # Type-specific description
         if 'min_value' in analysis:
-            desc_parts.append(f"Numeric range: {analysis['min_value']} to {analysis['max_value']} (mean: {analysis['mean_value']:.2f}).")
+            mean_val = analysis['mean_value']
+            if pd.notna(mean_val):
+                desc_parts.append(f"Numeric range: {analysis['min_value']} to {analysis['max_value']} (mean: {mean_val:.2f}).")
+            else:
+                desc_parts.append(f"Numeric range: {analysis['min_value']} to {analysis['max_value']}.")
         elif 'sample_values' in analysis:
             sample_str = ', '.join([f"'{v}'" for v in analysis['sample_values']])
             desc_parts.append(f"Sample values: {sample_str}.")
